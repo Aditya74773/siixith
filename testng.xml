@@ -1,9 +1,13 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 
-<suite name="Suite">
-    <test name="DataDriven">
+<suite name="CrossBrowserSuite">
+
+    <test name="CrossBrowserTest">
+
         <classes>
-            <class name="tests.DataDrivenTest"/>
+            <class name="tests.CrossBrowserTest"/>
         </classes>
+
     </test>
+
 </suite>
